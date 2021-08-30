@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 
 const data = require("./components/data");
-const demo = express(); //??
+const demo = express(); 
 
 demo.use(cors());
 
