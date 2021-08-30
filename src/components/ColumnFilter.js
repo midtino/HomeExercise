@@ -1,3 +1,4 @@
+//To aid searching by date for the user in place of datepicker
 import React from 'react'
 
 export const ColumnFilter = ({ column }) => {
