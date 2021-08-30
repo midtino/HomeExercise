@@ -11,5 +11,5 @@ demo.get("/api", (req, res) => {
 });
 
 demo.listen(5000, () => {
-    console.log("server is running on port 5000");
+    console.log("");
 });
