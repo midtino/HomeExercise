@@ -1,3 +1,4 @@
+//Table functions (sorting and column filter) implemented in this component
 import React, { useMemo } from 'react'
 import { useTable, useSortBy, useFilters } from 'react-table'
 import MOCK_DATA from './MOCK_DATA.json'
