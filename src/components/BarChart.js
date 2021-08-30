@@ -1,10 +1,9 @@
 import React from "react";
-import { Bar, defaults } from "react-chartjs-2";
-
-
+import { Bar, Chart, defaults } from "react-chartjs-2"
+import ChartAnnotationsPlugin from 'chartjs-plugin-annotation'
 
 function chartData() {
-  return {
+  return { 
     labels: ["01/07", "02/07", "03/07", "04/07"],
     datasets: [
       {
@@ -64,7 +63,21 @@ const options = {
           }
         }],
     },
-};
+    annotation: {
+      annotations: [{
+        type: 'line',
+        mode: 'horizontal',
+        scaleID: 'y-axis-0',
+        value: 0.25,
+        borderColor: 'rgb(75, 192, 192)',
+        borderWidth: 4,
+        label: {
+          enabled: false,
+          content: 'Test label'
+        }
+      }]
+    },
+  };
 
 const styles = {
   graphContainer: {

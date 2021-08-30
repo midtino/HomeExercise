@@ -2802,10 +2802,15 @@
   "resolved" "https://registry.npmjs.org/chardet/-/chardet-0.7.0.tgz"
   "version" "0.7.0"
 
-"chart.js@^3.1.0", "chart.js@^3.5.1":
+"chart.js@^3.0.1", "chart.js@^3.1.0", "chart.js@^3.5.1":
   "integrity" "sha512-m5kzt72I1WQ9LILwQC4syla/LD/N413RYv2Dx2nnTkRS9iv/ey1xLTt0DnPc/eWV4zI+BgEgDYBIzbQhZHc/PQ=="
   "resolved" "https://registry.npmjs.org/chart.js/-/chart.js-3.5.1.tgz"
   "version" "3.5.1"
+
+"chartjs-plugin-annotation@^1.0.2":
+  "integrity" "sha512-asqP2/B+9tv105e3rwkzqoIgzhDBQRMzFRh/0ZTKqormxDXMP68uzxI5t3Fx8bxZSMNeEph0sY+0GIXXU0PeBQ=="
+  "resolved" "https://registry.npmjs.org/chartjs-plugin-annotation/-/chartjs-plugin-annotation-1.0.2.tgz"
+  "version" "1.0.2"
 
 "chokidar@^2.0.2":
   "integrity" "sha512-ZmZUazfOzf0Nve7duiCKD23PFSCs4JPoYyccjUFF3aQkQadqBhfzhjkwBH2mNOG9cTBwhamM37EIsIkZw3nRgg=="
